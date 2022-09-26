@@ -1,0 +1,29 @@
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo__pizza {
+    display: flex;
+    width: 4%;
+    margin-top: 18px;
+    text-align: center;
+}
+
+.titulo__principal {
+    font-size: 46px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, 'Arial Narrow', Arial, sans-serif;
+}
+
+.titulo__criar__conta {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 50px 0px;
+    font-size: 66px;
+    padding: 10px;
+    text-transform: uppercase;
+    background: rgb(197, 205, 212);
+    font-family: Arial, Helvetica, sans-serif, Times, serif
+}
