@@ -1,22 +1,49 @@
 body {
     margin: 0px;
+    font-family: 'Poppins', sans-serif;
 }
 
-.menu {
+.cabecalho {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+}
+
+.cabecalho__menu ul {
+    padding: 0px 5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.cabecalho__menu {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+}
+
+@media screen and(max-width: 1024px) {
+    .logo__pizza {
+        display: flex;
+        width: 5%;
+        text-align: center; 
+    } 
 }
 
 .logo__pizza {
     display: flex;
-    width: 4%;
-    margin-top: 18px;
-    text-align: center;
+    flex-wrap: wrap;
+    width: 6%;
+    padding-top: 6px;
 }
 
 .titulo__principal {
     font-size: 26px;
+    list-style-type: none;
 }
 
 .titulo__criar__conta {
@@ -51,7 +78,14 @@ body {
     display: flex;
     text-align: start;
     flex-direction: column;
-    padding: 20px ;
+    padding: 20px 0px ;
     width: 350px;
     font-family: 'Poppins', sans-serif;
+}
+
+.botao__criar__conta {
+    padding: 8px 40px;
+    background: rgb(233, 187, 90);
+    border: solid 1px rgb(179, 109, 109);
+    border-radius: 2px;
 }
