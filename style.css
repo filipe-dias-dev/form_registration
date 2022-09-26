@@ -1,3 +1,7 @@
+body {
+    margin: 0px;
+}
+
 .menu {
     display: flex;
     justify-content: center;
@@ -12,8 +16,7 @@
 }
 
 .titulo__principal {
-    font-size: 46px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif, 'Arial Narrow', Arial, sans-serif;
+    font-size: 26px;
 }
 
 .titulo__criar__conta {
@@ -21,7 +24,7 @@
     text-align: center;
     justify-content: center;
     margin: 50px 0px;
-    font-size: 66px;
+    font-size: 36px;
     padding: 10px;
     text-transform: uppercase;
     background: rgb(197, 205, 212);
@@ -32,6 +35,7 @@
     display: flex;
     text-align: center;
     justify-content: center;
+    font-family: 'Poppins', sans-serif;
 }
 
 @media screen and (max-width: 1024px) {
@@ -49,4 +53,5 @@
     flex-direction: column;
     padding: 20px ;
     width: 350px;
+    font-family: 'Poppins', sans-serif;
 }
