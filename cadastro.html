@@ -30,49 +30,58 @@
                 <div class="input-container">
                     <label class="input-label" for="nome" >Nome</label>
                     <input type="text" name="nome" id="nome" class="input" placeholder="Nome" required>
+                    <span class="input-mensagem-erro">Este campo não está válido</span>
                 </div>
                 <div class="input-container">
                     <label class="input-label" for="sobrenome" >Sobrenome</label>
                     <input type="text" name="sobrenome" id="sobrenome" class="input" placeholder="sobrenome" required>
+                    <span class="input-mensagem-erro">Este campo não está válido</span>
                 </div>
                 <div class="input-container">
                     <label class="input-label" for="genero" >Gênero</label>
                     <input type="text" name="genero" id="genero" class="input" placeholder="Gênero" required>
+                    <span class="input-mensagem-erro">Este campo não está válido</span>
                 </div>
                 <div class="input-container">
                     <label class="input-label" for="e-mail" >Endereço de e-mail</label>
                     <input type="email" name="e-mail" id="Endereço de e-mail" class="input" required>
+                    <span class="input-mensagem-erro">Este campo não está válido</span>
                 </div>
                 <div class="input-container">
                     <label class="input-label" for="telefone">Telefone</label>
                     <input type="tel" name="telefone" id="telefone" class="input" required>
+                    <span class="input-mensagem-erro">Este campo não está válido</span>
                 </div>
                 <div class="input-container">
                     <label class="input-label" for="cpf">CPF/CNPJ</label>
                     <input type="number" name="cpf" id="cpf" class="input" required>
+                    <span class="input-mensagem-erro">Este campo não está válido</span>
                 </div>
                 <div class="input-container">
                     <label class="input-label" for="passowrd">Sua senha</label>
-                    <input type="password" name="passowrd" id="passowrd" minlength="6" pattern="^(?=.*[0-9]+.*)(?=.*[a-zA-Z]+.*)[0-9a-zA-Z]{6,}$" title="A senha deve conter pelo menos uma letra, pelo menos um número, e ser maior que seis charaters" class="input" required>
+                    <input type="password" name="passowrd" id="passowrd" minlength="6" pattern="^(?=.*[0-9]+.*)(?=.*[a-zA-Z]+.*)[0-9a-zA-Z]{6,}$" title="A senha deve conter pelo menos uma letra, pelo menos um número, e ser maior que seis charaters." class="input" required>
+                    <span class="input-mensagem-erro">Este campo não está válido</span>
                 </div>
                 <div class="input-container">
                     <label class="input-label" for="passowrd">Confirme sua senha</label>
-                    <input type="password" name="passowrd" id="passowrd" pattern="^(?=.*[0-9]+.*)(?=.*[a-zA-Z]+.*)[0-9a-zA-Z]{6,}$" minlength="6" title="A senha deve conter pelo menos uma letra, pelo menos um número, e ser maior que seis charaters" class="input" required>
+                    <input type="password" name="passowrd" id="passowrd" pattern="^(?=.*[0-9]+.*)(?=.*[a-zA-Z]+.*)[0-9a-zA-Z]{6,}$" minlength="6" title="A senha deve conter pelo menos uma letra, pelo menos um número, e ser maior que seis charaters." class="input" required>
+                    <span class="input-mensagem-erro">Este campo não está válido</span>
                 </div>
                 <div class="input-container">
                     <label class="input-label" for="data__nascimento">Data de Nascimento</label>
                     <input type="date" name="data__nascimento" id="data__nascimento" class="input" data-tipo="dataNascimento" required>
+                    <span class="input-mensagem-erro">Este campo não está válido</span>
                 </div>
                 <div class="input-container">
-                    <input type="checkbox" name="data__nascimento" id="data__nascimento" class="input" required>
-                    <label class="input-label" for="data__nascimento">Concordo com os Termos de Uso e entendo que minhas informações serão usadas conforme descrito nas páginas deste site Política de Privacidad
-                        e</label>
+                    <input type="checkbox" name="termos__de__uso" id="termos__de__uso" class="input" required>
+                    <label class="input-label" for="termos__de__uso">Concordo com os Termos de Uso e entendo que minhas informações serão usadas conforme descrito nas páginas deste site Política de Privacidade</label>
+                    <span class="input-mensagem-erro">Este campo não está válido</span>
                 </div>
             </fieldset>
             <button class="botao__criar__conta" type="submit">Criar Conta</button>
             </form>            
         </section>
     </main>
-    <script src="./js/app.js"></script>
+    <script src="./js/app.js" type="module"></script>
 </body>
 </html>

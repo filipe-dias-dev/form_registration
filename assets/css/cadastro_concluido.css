@@ -1,0 +1,64 @@
+body {
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .cabecalho {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+  }
+  
+  .cabecalho__menu ul {
+    padding: 0px 5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .cabecalho__menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  @media screen and(max-width: 1024px) {
+    .logo__pizza {
+      display: flex;
+      width: 5%;
+      text-align: center;
+    }
+  }
+  
+  .logo__pizza {
+    display: flex;
+    flex-wrap: wrap;
+    width: 6%;
+    padding-top: 6px;
+  }
+  
+  .titulo__principal {
+    font-size: 26px;
+    list-style-type: none;
+  }
+
+  .cadastro-concluido {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    border: solid rgb(233, 233, 233);
+    padding: 50px 0px;
+  }
+
+  .botao {
+    padding: 15px;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    border: solid;
+  }
