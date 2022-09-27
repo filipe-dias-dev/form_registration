@@ -29,7 +29,7 @@
                 <legend class="formulario__legenda">Informações do cadastro</legend>
                 <div class="input-container">
                     <label class="input-label" for="nome" >Nome</label>
-                    <input type="text" name="nome" id="nome" class="input" placeholder="Nome" required>
+                    <input type="text" name="nome" id="nome" class="input" placeholder="Nome" data-tipo="nome" required>
                     <span class="input-mensagem-erro">Este campo não está válido</span>
                 </div>
                 <div class="input-container">
@@ -44,7 +44,7 @@
                 </div>
                 <div class="input-container">
                     <label class="input-label" for="e-mail" >Endereço de e-mail</label>
-                    <input type="email" name="e-mail" id="Endereço de e-mail" class="input" required>
+                    <input type="email" name="e-mail" id="Endereço de e-mail" class="input" data-tipo="email" required>
                     <span class="input-mensagem-erro">Este campo não está válido</span>
                 </div>
                 <div class="input-container">
@@ -59,12 +59,12 @@
                 </div>
                 <div class="input-container">
                     <label class="input-label" for="passowrd">Sua senha</label>
-                    <input type="password" name="passowrd" id="passowrd" minlength="6" pattern="^(?=.*[0-9]+.*)(?=.*[a-zA-Z]+.*)[0-9a-zA-Z]{6,}$" title="A senha deve conter pelo menos uma letra, pelo menos um número, e ser maior que seis charaters." class="input" required>
+                    <input type="password" name="passowrd" id="passowrd" minlength="6" pattern="^(?=.*[0-9]+.*)(?=.*[a-zA-Z]+.*)[0-9a-zA-Z]{6,}$" title="A senha deve conter pelo menos uma letra, pelo menos um número, e ser maior que seis charaters." class="input" data-tipo="senha" required>
                     <span class="input-mensagem-erro">Este campo não está válido</span>
                 </div>
                 <div class="input-container">
                     <label class="input-label" for="passowrd">Confirme sua senha</label>
-                    <input type="password" name="passowrd" id="passowrd" pattern="^(?=.*[0-9]+.*)(?=.*[a-zA-Z]+.*)[0-9a-zA-Z]{6,}$" minlength="6" title="A senha deve conter pelo menos uma letra, pelo menos um número, e ser maior que seis charaters." class="input" required>
+                    <input type="password" name="passowrd" id="passowrd" pattern="^(?=.*[0-9]+.*)(?=.*[a-zA-Z]+.*)[0-9a-zA-Z]{6,}$" minlength="6" title="A senha deve conter pelo menos uma letra, pelo menos um número, e ser maior que seis charaters." class="input" data-tipo="senha" required>
                     <span class="input-mensagem-erro">Este campo não está válido</span>
                 </div>
                 <div class="input-container">
