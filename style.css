@@ -1,91 +1,91 @@
 body {
-    margin: 0px;
-    font-family: 'Poppins', sans-serif;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
 }
 
 .cabecalho {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    align-items: center;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
 }
 
 .cabecalho__menu ul {
-    padding: 0px 5px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
+  padding: 0px 5px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 }
 
 .cabecalho__menu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 @media screen and(max-width: 1024px) {
-    .logo__pizza {
-        display: flex;
-        width: 5%;
-        text-align: center; 
-    } 
+  .logo__pizza {
+    display: flex;
+    width: 5%;
+    text-align: center;
+  }
 }
 
 .logo__pizza {
-    display: flex;
-    flex-wrap: wrap;
-    width: 6%;
-    padding-top: 6px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 6%;
+  padding-top: 6px;
 }
 
 .titulo__principal {
-    font-size: 26px;
-    list-style-type: none;
+  font-size: 26px;
+  list-style-type: none;
 }
 
 .titulo__criar__conta {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    margin: 50px 0px;
-    font-size: 36px;
-    padding: 10px;
-    text-transform: uppercase;
-    background: rgb(197, 205, 212);
-    font-family: Arial, Helvetica, sans-serif, Times, serif
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: 50px 0px;
+  font-size: 36px;
+  padding: 10px;
+  text-transform: uppercase;
+  background: rgb(197, 205, 212);
+  font-family: Arial, Helvetica, sans-serif, Times, serif;
 }
 
 .container-form {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    font-family: 'Poppins', sans-serif;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
 }
 
 @media screen and (max-width: 1024px) {
-    .input-container {
-        display: flex;
-        text-align: start;
-        flex-direction: column;
-        padding: 20px;
-    }
-}
-
-.input-container {
+  .input-container {
     display: flex;
     text-align: start;
     flex-direction: column;
-    padding: 20px 0px ;
-    width: 350px;
-    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+  }
+}
+
+.input-container {
+  display: flex;
+  text-align: start;
+  flex-direction: column;
+  padding: 20px 0px;
+  width: 350px;
+  font-family: "Poppins", sans-serif;
 }
 
 .botao__criar__conta {
-    padding: 8px 40px;
-    background: rgb(233, 187, 90);
-    border: solid 1px rgb(179, 109, 109);
-    border-radius: 2px;
+  padding: 8px 40px;
+  background: rgb(233, 187, 90);
+  border: solid 1px rgb(179, 109, 109);
+  border-radius: 2px;
 }
