@@ -81,7 +81,7 @@ function validaCPF(input) {
     const cpfRenvoado = input.value.replace(/\D/g,'')
     let mensagem = ''
 
-    if(!checaCPFRepetido(cpfRenvoado)) {
+    if(!checaCPFRepetido(cpfRenvoado) || !checaEstruturaCPF(cpfRenvoado)) {
         mensagem = 'O CPF digitado não é valido.'
     }
 
@@ -112,8 +112,33 @@ function checaCPFRepetido(cpf) {
     return cpfValido
 }
 
-123 345 678 09
+function checaEstruturaCPF(cpf) {
+    const multiplicador = 10
 
-let soma = (10 * 1) + (9 * 2) + (8 * 3) ... (2 * 9)
+    return checarDigitoVerificador(cpf, multiplicador)
+}
 
-let digitoVerificador = 11 - (soma % 11)
+function checarDigitoVerificador(cpf, multiplicador) {
+    if(multiplicador >= 12) {
+        return true
+    }
+
+    let multiplicadorInicial = multiplicador
+    let soma = 0
+    const cpfSemDigitos = cpf.substr(0, multiplicador -1).split('')
+    const digitoVerificador = cpf.charAt(multiplicador -1)
+    for(let contador = 0; multiplicadorInicial > 1 ; multiplicadorInicial -- ) {
+        soma = soma + cpfSemDigitos[contador] * multiplicadorInicial
+        contador ++
+    }
+
+    if(digitoVerificador == confirmaDigito(soma)) {
+        return checarDigitoVerificador(cpf, multiplicador + 1)
+    }
+
+    return false
+}
+
+function confirmaDigito(soma) {
+    return 11 - (soma % 11)
+}
