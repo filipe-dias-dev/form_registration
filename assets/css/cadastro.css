@@ -19,7 +19,6 @@ body {
 .cabecalho__menu {
   display: flex;
   justify-content: center;
-  padding-right: 30px;
 }
 
 @media screen and(max-width: 1024px) {
@@ -31,11 +30,7 @@ body {
 }
 
 .logo__pizza {
-  display: flex;
-  text-align: start;
-  flex-wrap: wrap;
-  width: 15%;
-  padding-top: 6px;
+  width: 25%;
 }
 
 .titulo__principal {

@@ -31,11 +31,7 @@ body {
 }
 
 .logo__pizza {
-  display: flex;
-  text-align: start;
-  flex-wrap: wrap;
-  width: 15%;
-  padding-top: 6px;
+  width: 25%;
 }
 
 .titulo__principal {
