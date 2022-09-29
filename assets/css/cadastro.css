@@ -63,6 +63,10 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.input {
+  padding: 10px;
+}
+
 @media screen and (min-width: 1024px) {
   .input-container {
   display: flex;
@@ -74,6 +78,15 @@ body {
 } 
 }
 
+.input-container {
+  display: flex;
+  text-align: start;
+  flex-direction: column;
+  padding: 10px 0px;
+  max-width: 690px;
+  font-family: "Poppins", sans-serif;
+}
+
 .botao__criar__conta {
   padding: 15px 90px;
   background: rgb(0, 0, 0);
@@ -83,4 +96,5 @@ body {
   margin: 15px;
   border-radius: 5px;
 }
+
 
